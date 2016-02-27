@@ -1,2 +1,9 @@
 # goscrapetable
-Scrapes a table from a file or url and turns it into csv (or json)
+Scrapes a table from a html file and turns it into tab delimited file
+
+# how to use
+go get github.com/PuerkitoBio/goquery
+go get github.com/varung/goscrapetable
+
+run the binary passing it a html file
+
