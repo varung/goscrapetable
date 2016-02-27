@@ -21,7 +21,7 @@ func main() {
 
 	doc.Find("tr").Each(func(i int, s *goquery.Selection) {
 		s.Find("td").Each(func(j int, s *goquery.Selection) {
-			fmt.Print(s.Text(), " ")
+			fmt.Print(s.Text(), "\t")
 		})
 		fmt.Println()
 	})
